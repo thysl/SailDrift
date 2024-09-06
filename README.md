@@ -11,12 +11,15 @@ SailDrift is a game/simulator with the following goals:
 Controls:
 
 Steer left - A
+
 Steer right - D
 
 Sheet in mainsail - F
+
 Sheet out mainseel - R
 
 Sheet in foresail - K
+
 Sheet out foresail - I
 
 --//--
