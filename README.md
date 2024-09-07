@@ -12,6 +12,8 @@ Controls:
 
 - Steer left - A
 - Steer right - D
+- Trim rudder left - Q
+- Trim rudder right E
 
 - Sheet in mainsail - F
 - Sheet out mainsail - R
