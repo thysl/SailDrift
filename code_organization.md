@@ -3,14 +3,14 @@
 ### We use a file per class system, with files grouped in packages. <br>
 ### The files are as follows:
 
-**- main.py**
-**- /sails**
+- main.py
+- /sails
     - mainsail.py
     - headsail.py
-**- /water_resistance**
+- /water_resistance
     - hull.py
     - keel.py
     - rudder.py
-**- /rendering**
+- /rendering
     - bkg_scroll.py
     - wake.py
