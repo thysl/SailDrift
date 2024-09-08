@@ -1,0 +1,2 @@
+- dynamic sheet speed based on the force on the sails
+- telltale and flappering animation to judge sails
