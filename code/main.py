@@ -19,8 +19,11 @@ while run:
             run = False
     
     # blitting items
+    WIN.fill("black")
+
     for water_tile in water_tiles:
         WIN.blit(water_tile.IMG, (water_tile.x, water_tile.y))
+        water_tile.update()
 
     # other
     pygame.display.flip()
