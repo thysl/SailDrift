@@ -15,8 +15,8 @@ Controls:
 - Trim rudder left - Q
 - Trim rudder right - E<br>
 
-- Sheet in mainsail - F
-- Sheet out mainsail - R<br>
+- Sheet in mainsail - N
+- Sheet out mainsail - H<br>
 
 - Sheet in foresail - K
 - Sheet out foresail - I
