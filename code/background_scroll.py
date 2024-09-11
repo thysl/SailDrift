@@ -7,7 +7,7 @@ class water_tile:
 
     def __init__(self, x, y):
 
-        self.IMG = pygame.image.load('./assets/images/water_tile_tester.png')
+        self.IMG = pygame.image.load('./assets/images/water_tile.png')
         self.IMG = pygame.transform.scale(self.IMG, (WIN_WIDTH, WIN_HEIGHT))
         self.IMG = self.IMG.convert_alpha()
 
