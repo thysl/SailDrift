@@ -17,5 +17,5 @@ pygame.display.set_caption("SailDrift Simulator")
 
 FPS = 60
 
-speed = 5
-heading = 60
+speed = 1
+heading = 0

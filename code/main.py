@@ -26,7 +26,7 @@ while run:
         WIN.blit(water_tile.IMG, (water_tile.x, water_tile.y))
         water_tile.update()
     
-    WIN.blit(boat.IMG, (100, 100))
+    WIN.blit(boat.IMG, (300, 200))
 
     # other
     pygame.display.update()

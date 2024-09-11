@@ -1,9 +1,7 @@
-import pygame
 from global_vars import WIN_WIDTH, WIN_HEIGHT
 
-def fhd_to_any(pixels): # only works with the same aspect ratio
-    decimal = pixels / 1920
-    return WIN_WIDTH * decimal
+def percent(percentage):
+    return percentage / 100 * WIN_WIDTH
 
 def item_on_screen(coordinates, dimensions):
     if(
