@@ -30,6 +30,6 @@ while run:
     clock.tick(FPS)
 
     # testing
-    print(clock.get_fps())
+    pass
 
 pygame.quit()
