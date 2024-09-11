@@ -2,11 +2,20 @@ import pygame
 
 pygame.display.init()
 
-WIN_WIDTH, WIN_HEIGHT = pygame.display.Info().current_w, pygame.display.Info().current_w/16*9
-WIN = pygame.display.set_mode((WIN_WIDTH, WIN_HEIGHT))
+if pygame.display.Info().current_w / pygame.display.Info().current_h < 1920/1080:
+    WIN_WIDTH, WIN_HEIGHT = pygame.display.Info().current_w, pygame.display.Info().current_w/16*9
+
+elif pygame.display.Info().current_w / pygame.display.Info().current_h > 1920/1080:
+    WIN_WIDTH, WIN_HEIGHT = pygame.display.Info().current_h/9*16, pygame.display.Info().current_h
+
+else:
+    WIN_WIDTH, WIN_HEIGHT = pygame.display.Info().current_w, pygame.display.Info().current_h
+
+
+WIN = pygame.display.set_mode((WIN_WIDTH, WIN_HEIGHT), pygame.SCALED, vsync=1)
 pygame.display.set_caption("SailDrift Simulator")
 
 FPS = 60
 
-speed = 6
+speed = 5
 heading = 328

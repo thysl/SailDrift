@@ -26,10 +26,10 @@ while run:
         water_tile.update()
 
     # other
-    pygame.display.flip()
+    pygame.display.update()
     clock.tick(FPS)
 
     # testing
-    pass
+    print(clock.get_fps())
 
 pygame.quit()
